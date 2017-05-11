@@ -39,6 +39,11 @@ ie 'Why is this interesting and new, if it is so boring and old'
     - This has a similar impact to mandating TCO in the language spec, in that it makes certain things guaranteed to be feasable
     - But, because this is under program control it also ends up with a very different approach to eg Meta-Tracing
 
+The details together lead in very different directions
+- We can get functorial modules
+  - Quantifiers + MOP
+  - No 'classloader shenanigans' or w/e to have different versions of the 'same' package, namespaces, unloading etc
+
 More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
