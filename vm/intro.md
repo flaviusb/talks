@@ -12,6 +12,8 @@ Prior Art
 - Even Forth, kindof
 - Lots of stuff
 
+Average longevity: low. Many of these projects quickly die. Why?
+
 A basic bytecode VM is the simplest program
 - An array of bytes
 - Stack(s), register(s) of some kind
@@ -19,6 +21,10 @@ A basic bytecode VM is the simplest program
 - A dispatch loop based off the contents of the array indexed by the instruction counter
 
 Basically a reification of the command pattern as a coprogram.
+
+But 'productising' a VM is quite hard. Lacking a specific reason to exist, (and a sponsor with deep pockets) they usually vanish.
+
+...
 
 Refined reasoning
 - 'A better bootstrapping point than C/C++'
