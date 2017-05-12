@@ -37,8 +37,9 @@ ie 'Why is this interesting and new, if it is so boring and old'
 - Different primitives
   - Typed
   - Polymorphic row types
-  - Logical quantifiers
+  - Logical quantifiers (μ λ ∃ ∀ ı)
   - Reasonably developed MOP
+  - GOT etc are part of the VM spec, and are accessible
 - Some other assumptions are taken in very different ways
   - Character encodings/strings
   - Traces/Basic Block Versions as a part of the function ABI/structure in the VM spec, not something layered on as an optimisation
