@@ -6,8 +6,8 @@ Reasoning
 Prior Art
 - ZetaVM (https://pointersgonewild.com/2017/04/29/zetavm-my-new-compiler-project/)
 - Qbrt (http://strange-loop-2013-notes.readthedocs.io/en/latest/emerging-languages/qbrt.html)
-- Truffle/Graal?
-- IBM's new java and Eclipse based abomination
+- Truffle/Graal
+- IBM's OMR, a new java and Eclipse based abomination (https://projects.eclipse.org/proposals/omr)
 - Parrot
 - Even Forth, kindof
 - Lots of stuff
