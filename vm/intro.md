@@ -1,5 +1,7 @@
 VM
 
+So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
+
 Reasoning
 - A 'fixed point', a 'simple core', 'portable' (in various different senses), 'a project to hang other experiments off of, as production VMs are not built with that in mind'
 
