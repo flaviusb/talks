@@ -1,0 +1,9 @@
+staged computation.
+
+describe widgets
+
+actual dataflow
+
+parsing/little languages
+
+at least as good as shoes, Tk.
