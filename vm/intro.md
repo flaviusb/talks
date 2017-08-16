@@ -76,6 +76,19 @@ The ML family are really good for building large chunks of compilers - a lot of 
 Generally they are only so-so for building the string processing side.
 Polymorphic Row Types are basically the apotheosis of the good bits of this, and they require relatively few, relatively simple primitives to build.
 
+Stability through 'deep time'
+Even just stability through short periods of time
+I have written a number of languages - the very first one that was used in production was a language called Atomish, that was like a compatible superset of a language called Ioke. I wrote it because Oracle released a patch level release for the JDK, which Ioke ran on top of, and then Ioke stopped working forever.  The patch notes for the release were (paraphrasing) 'minor changes', but they broke a lot of unrelated stuff. The original author of Ioke had moved on to other projects, and was uninterested in getting it working again; I spent something like a month on it, but I could never get it to the point where I could get even the low level diagnostics working, and it was a monster of a project. So, it ended up being easier to write a new, similar language, and just port my entire companies codebase to that.
+
+I wrote Atomish in Scala; my last commits to it were in 2014. It could still build and run as of late 2016; but I am not confident it would even build now. The Atomish spec was informal, huge, and very messy. The semantics were defined by the reference (and only) implementation, which can't even be built anymore. A lot of the acceptance tests were proprietary company code, which is still locked up somewhere. So, what do?
+
+The impermanence of things
+Even if your stuff 'keeps working', the dependencies may not. Even if the dependencies do, changes in them may change the behavior of your program.
+
+Languages are pretty big. I have worked on lots of projects; 'real' programming languages are gigantic (in terms of behavioural area).
+
+So, things rot.
+
 More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
