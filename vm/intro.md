@@ -33,7 +33,7 @@ But things get complicated fast. Macroinstructions, Polymorphic inline caches, J
     - Guile Scheme, and SBCL both had some interesting problems here as well.
     - You can end up very easily locked into one representation, and it makes ... very hard
     - Certain language changes also become exceptionally painful
-    - x86_64 (or whichever machine language is your primary) eventually becomes a defacto part of your spec - the spec as such is dependent on the meaning of the binary blob that is the exemplar compiler, after all
+    - x86\_64 (or whichever machine language is your primary) eventually becomes a defacto part of your spec - the spec as such is dependent on the meaning of the binary blob that is the exemplar compiler, after all
     - I have tried to resurrect a number of academic languages that have met this fate from the 90's (the major problem with ones from the 80's and earlier is a lack of code at all) - they are often fairly intertwined with eg MIPS or Sparc or whatever, plus other languages that are similarly problematic and emulators are not always good enough to get them running properly again. Let alone the horror of attempting to port them.
 
 But 'productising' a VM is quite hard. Lacking a specific reason to exist, (and a sponsor with deep pockets) they usually vanish.
