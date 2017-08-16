@@ -70,6 +70,12 @@ Finally, the bytecode, execution model, and environment were all designed before
 - That is, possible to 'port' by just writing a whole new conformant VM, and then carrying everything else atop it
 - Everything designed to make staged computation and metatracing easier to write
 
+Why did I chose the primitives I chose?
+A couple of reasons.
+The ML family are really good for building large chunks of compilers - a lot of this is gadts + pattern matching - the AST typing problem, plus parts of the expression problem.
+Generally they are only so-so for building the string processing side.
+Polymorphic Row Types are basically the apotheosis of the good bits of this, and they require relatively few, relatively simple primitives to build.
+
 More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
