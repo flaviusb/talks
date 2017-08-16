@@ -26,6 +26,8 @@ Basically a reification of the command pattern as a coprogram.
 
 People often write simple bytecode VMs early in the development of their programming languages - they offer a sweet spot of better performance for less effort than continuing to develop direct AST walking interpreters, and a specialised bytecode VM offers a much easier compilation target than machine code, or even translation to C.
 
+But things get complicated fast. Macroinstructions, Polymorphic inline caches, JITting, GC...
+
 - The language bootstrap problem
     - Rust's compiler was originally written in OCaml - eventually they moved to writing in Rust with a bootstrapping compiler saved as a binary blob from the last good version.
     - Guile Scheme, and SBCL both had some interesting problems here as well.
