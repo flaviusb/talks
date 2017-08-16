@@ -89,6 +89,11 @@ Languages are pretty big. I have worked on lots of projects; 'real' programming 
 
 So, things rot.
 
+...
+
+
+Languages are pretty foundational - I want to build a language and a runtime to build stuff on, not just for its own sake.
+
 More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
