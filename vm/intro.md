@@ -2,7 +2,7 @@ VM
 
 So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
 
-Reasoning
+Reasoning in short
 - A 'fixed point', a 'simple core', 'portable' (in various different senses), 'a project to hang other experiments off of, as production VMs are not built with that in mind'
 
 Prior Art
@@ -10,7 +10,7 @@ Prior Art
 - Qbrt (http://strange-loop-2013-notes.readthedocs.io/en/latest/emerging-languages/qbrt.html)
 - Truffle/Graal
 - IBM's OMR, a new java and Eclipse based abomination (https://projects.eclipse.org/proposals/omr)
-- Parrot
+- Parrot, MoarVM, PyPy
 - Even Forth, kindof
 - Lots of stuff
 
