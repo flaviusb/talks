@@ -65,6 +65,11 @@ The details together lead in very different directions
   - Quantifiers + MOP
   - No 'classloader shenanigans' or w/e to have different versions of the 'same' package, namespaces, unloading etc
 
+Finally, the bytecode, execution model, and environment were all designed before the 'vm'.
+- Designed to be small and easy to implement
+- That is, possible to 'port' by just writing a whole new conformant VM, and then carrying everything else atop it
+- Everything designed to make staged computation and metatracing easier to write
+
 More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
