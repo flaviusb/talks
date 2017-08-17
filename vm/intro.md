@@ -98,3 +98,6 @@ More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
 - Staging/staged computation
+
+Long known that tracing works poorly with interpreters - we seem to not get the almost mythical second Futamura projection... So we have to do something more...
+The idea is that we can write an interpreter for this simple bytecode simply, and then write a compiler for the bytecode (a relatively more difficult task) in the bytecode...
