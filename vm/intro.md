@@ -98,6 +98,10 @@ More prior art
 - The Interpreter Tower, Kuro/Shiro, Intercession etc
 - Metatracing VMs
 - Staging/staged computation
+- The STEPS VPRI project with their view of the layers of computation, and translating systems across different towers
 
 Long known that tracing works poorly with interpreters - we seem to not get the almost mythical second Futamura projection... So we have to do something more...
 The idea is that we can write an interpreter for this simple bytecode simply, and then write a compiler for the bytecode (a relatively more difficult task) in the bytecode...
+
+Future direction inspirations
+- JLink etc for multiple language hosting / ABIs as libraries
