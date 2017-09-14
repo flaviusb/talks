@@ -4,6 +4,7 @@ So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is 
 
 Reasoning in short
 - A 'fixed point', a 'simple core', 'portable' (in various different senses), 'a project to hang other experiments off of, as production VMs are not built with that in mind'
+Note: 'a stable place to stand *for me*'; no guarantee of external stability
 
 Prior Art
 - ZetaVM (https://pointersgonewild.com/2017/04/29/zetavm-my-new-compiler-project/)
