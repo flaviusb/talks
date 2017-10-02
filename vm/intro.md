@@ -4,10 +4,11 @@ Bytecode VMs.
 
 Rough kinds: (This will be important in a minute)
 - For a specific language
-  - CPython, Ruby MRI/Rubinius, Perl, Lua, even PHP (kindof)
-  - An evolution, after starting as an ast walking interpreter
+  - Python CPython, Ruby MRI/Rubinius, Perl, Lua, Flash Tamarin, JS V8 etc, even PHP (kindof)
+  - (Usually) an evolution, after starting as (usually) an AST walking interpreter
   - Better risk/reward than writing a compiler that targets raw machine code
 - As a layer of an application or part of an API
+  - Z-machine
   - JS rendering library 'Glimmer'
   - I wrote an opengl based UI toolkit which was mostly a bytecode VM whose bytecodes were rendering tasks
   - In fact, lots of rendering middleware uses this approach - Apple's Metal APIs, for example.
