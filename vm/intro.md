@@ -8,11 +8,12 @@ Rough kinds: (This will be important in a minute)
   - (Usually) an evolution, after starting as (usually) an AST walking interpreter
   - Better risk/reward than writing a compiler that targets raw machine code
 - As a layer of an application or part of an API
-  - Z-machine
+  - Z-machine (Infocom)
+  - The Lost Vikings
   - JS rendering library 'Glimmer'
   - I wrote an opengl based UI toolkit which was mostly a bytecode VM whose bytecodes were rendering tasks
   - In fact, lots of rendering middleware uses this approach - Apple's Metal APIs, for example.
-  - If you are familiar with the literature, you end up building out Jitting infrastructure, GC, OSR, Deopt, multithreading, tuning parameters, stack layout optimisation...
+  - If you are familiar with the literature, you can end up building out Jitting infrastructure, GC, OSR, Deopt, multithreading, tuning parameters, stack layout optimisation, playing with instruction encoding for code density, macroinstructions, polymorphic inline caches, dynamic recompilation...
 - 'General' runtimes
   - JVM, CLR, Parrot, Truffle/Graal, OMR, ZetaVM, Qbrt, Rubinius, PyPy, Dis...
 
