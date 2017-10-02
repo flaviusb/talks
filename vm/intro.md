@@ -1,6 +1,7 @@
 VM
 
 Bytecode VMs.
+
 Rough kinds: (This will be important in a minute)
 - For a specific language
   - CPython, Ruby MRI/Rubinius, Perl, Lua, even PHP (kindof)
@@ -13,6 +14,22 @@ Rough kinds: (This will be important in a minute)
   - If you are familiar with the literature, you end up building out Jitting infrastructure, GC, OSR, Deopt, multithreading, tuning parameters, stack layout optimisation...
 - 'General' runtimes
   - JVM, CLR, Parrot, Truffle/Graal, OMR, ZetaVM, Qbrt, Rubinius, PyPy
+
+What is the underlying idea here?
+
+Basically a reification of the command pattern as a coprogram.
+
+A basic bytecode VM is the simplest program
+- An array of bytes
+- Stack(s), register(s) of some kind
+- An instruction counter
+- Some other state variables
+- A dispatch loop based off the contents of the array indexed by the instruction counter
+  - Basically a loop with a giant switch statement inside
+
+Well, for some things that is as far as you need to go - you can now express what you want to do in the form of simple bytecode programs, which, if you are clever, can have some very nice properties, such as easy programmatic transformation. You don't need GC, or high performance, or low memory use, or threads, or lots more features.
+
+But ... big wodge of C++.
 
 So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
 
@@ -31,13 +48,6 @@ Prior Art
 
 Average longevity: low. Many of these projects quickly die. Why?
 
-A basic bytecode VM is the simplest program
-- An array of bytes
-- Stack(s), register(s) of some kind
-- An instruction counter
-- A dispatch loop based off the contents of the array indexed by the instruction counter
-
-Basically a reification of the command pattern as a coprogram.
 
 People often write simple bytecode VMs early in the development of their programming languages - they offer a sweet spot of better performance for less effort than continuing to develop direct AST walking interpreters, and a specialised bytecode VM offers a much easier compilation target than machine code, or even translation to C.
 
