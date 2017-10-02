@@ -78,7 +78,7 @@ ie 'Why is this interesting and new, if it is so boring and old'
 - Different primitives
   - Typed
   - Polymorphic row types
-  - Logical quantifiers (∀ ∃ ı λ μ ∨)
+  - Logical quantifiers (∀ ∃ Π Σ ı λ μ ν Ϙ 𐌎)
   - Reasonably developed MOP
   - GOT etc are part of the VM spec, and are accessible
 - Some other assumptions are taken in very different ways
