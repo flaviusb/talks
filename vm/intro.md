@@ -1,5 +1,19 @@
 VM
 
+Bytecode VMs.
+Rough kinds: (This will be important in a minute)
+- For a specific language
+  - CPython, Ruby MRI/Rubinius, Perl, Lua, even PHP (kindof)
+  - An evolution, after starting as an ast walking interpreter
+  - Better risk/reward than writing a compiler that targets raw machine code
+- As a layer of an application or part of an API
+  - JS rendering library 'Glimmer'
+  - I wrote an opengl based UI toolkit which was mostly a bytecode VM whose bytecodes were rendering tasks
+  - In fact, lots of rendering middleware uses this approach - Apple's Metal APIs, for example.
+  - If you are familiar with the literature, you end up building out Jitting infrastructure, GC, OSR, Deopt, multithreading, tuning parameters, stack layout optimisation...
+- 'General' runtimes
+  - JVM, CLR, Parrot
+
 So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
 
 Reasoning in short
