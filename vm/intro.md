@@ -12,7 +12,7 @@ Rough kinds: (This will be important in a minute)
   - In fact, lots of rendering middleware uses this approach - Apple's Metal APIs, for example.
   - If you are familiar with the literature, you end up building out Jitting infrastructure, GC, OSR, Deopt, multithreading, tuning parameters, stack layout optimisation...
 - 'General' runtimes
-  - JVM, CLR, Parrot
+  - JVM, CLR, Parrot, Truffle/Graal, OMR, ZetaVM, Qbrt, Rubinius, PyPy
 
 So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
 
