@@ -80,6 +80,8 @@ The approach
 ie 'Why is this interesting and new, if it is so boring and old'
 - Different primitives
   - Typed
+    - Homotopy type theory, cubical types ish
+    - All a little bit time cube
   - Polymorphic row types
     - labelled sums and products with first class labels
     - polymorphic extension, restriction, union, and removal
