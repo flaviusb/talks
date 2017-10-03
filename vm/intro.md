@@ -81,6 +81,8 @@ ie 'Why is this interesting and new, if it is so boring and old'
 - Different primitives
   - Typed
   - Polymorphic row types
+    - labelled sums and products with first class labels
+    - polymorphic extension, restriction, union, and removal
   - Logical quantifiers (∀ ∃ Π Σ ı λ μ ν Ϙ 𐌎)
   - Reasonably developed MOP
   - GOT etc are part of the VM spec, and are accessible
