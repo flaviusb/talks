@@ -33,6 +33,8 @@ Well, for some things that is as far as you need to go - you can now express wha
 
 But ... big wodge of C++.
 
+... A floor wax, a dessert topping - sometimes it is a design pattern, sometimes it is a product category. So...?
+
 So, I wrote a VM. Am writing? Whatever. Some questions: why? Who cares? What is interesting about it?
 
 Reasoning in short
