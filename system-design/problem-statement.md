@@ -15,6 +15,8 @@ Otherwise fairly conventional.
 Firm piece of ground
 Able to change - test out ideas - fast bringup/change things at many levels
 
+Regenerateable seeds at each different level...
+
 Hw/sw/system codesign
 bootstrapping
 
