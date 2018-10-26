@@ -1,6 +1,16 @@
 An 'actually different' system
 
+That is:
+
 No C, no verilog, no x86/arm, no posix...
+
+Design flows...
+
+Specific constraints for the system I am working on:
+
+No d$/i$, no TLB, no DMA/MMU/owned pages etc in the current style, channel IO etc instead, NoC...
+
+Otherwise fairly conventional. 
 
 Firm piece of ground
 Able to change - test out ideas - fast bringup/change things at many levels
