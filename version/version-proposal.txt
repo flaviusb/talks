@@ -1,0 +1,13 @@
+I've been thinking about how to version software for a while now.
+
+You should version a 'thing-you-are-using'. Eg if you are using a library, you version it based on the type signature of all imported functionality. If you are using a app, the version needs to include the type of the database schema.
+
+Version migration then becomes a function from signature to signature, that you run on the instance of the thing you are migrating.
+
+What about functions whose behaviour has changed by whose type has stayed the same? Add a phantom type. Phantom types can then be linked to the change note for that particular behaviour.
+
+How to expose this?
+
+Have an hlist of types for each 'edge', where each entry in the hlist is a version, plus a few named types (like ⌜stable⌝, ⌜lts⌝, ⌜latest⌝) which all alias to a some cell in the version hlist; you could even set up the type of eg ⌜latest⌝ to be something like `version !! (size version $ - 1)`.
+
+How do you expose the version of dependencies? By treating modules as functors in the dependencies of the library.
